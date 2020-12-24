@@ -75,7 +75,8 @@ int solve(int x)
 int main()
 
 {
-   s=9;
-   cout<<solve(100000000000000)<<endl;
+    int a,b;
+    cin>>a>>b>>s;
+   cout<<solve(b+1)-solve(a)<<endl;
    return 0;
 }
